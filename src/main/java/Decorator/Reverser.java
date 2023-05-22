@@ -1,4 +1,9 @@
-public class Reverser implements LoopDecorator{
+package Decorator;
+
+import Decorator.LoopDecorator;
+import Strategy.LoopStrategy;
+
+public class Reverser implements LoopDecorator {
     private LoopStrategy strategy;
     private boolean stopped = true;
     public Reverser(LoopStrategy strategy) {

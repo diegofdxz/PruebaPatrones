@@ -1,3 +1,5 @@
+package Strategy;
+
 public class LoopStrategyImp1 implements LoopStrategy{
 
     @Override

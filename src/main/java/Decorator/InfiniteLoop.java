@@ -1,3 +1,8 @@
+package Decorator;
+
+import Strategy.Loop;
+import Strategy.LoopStrategy;
+
 public class InfiniteLoop implements Loop {
     private LoopStrategy strategy;
     private boolean stopped = false;
